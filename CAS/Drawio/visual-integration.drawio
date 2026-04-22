@@ -1,0 +1,54 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="3">
+  <diagram name="simulation-framework" id="gRNiBvdh-FMU1DAho22N">
+    <mxGraphModel dx="1111" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gvXJfTXr9kfuwsHZNmos-1" value="Simulation Framework" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="730" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="gvXJfTXr9kfuwsHZNmos-2" value="jmodelica" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" parent="gvXJfTXr9kfuwsHZNmos-1" vertex="1">
+          <mxGeometry x="40" y="80" width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gvXJfTXr9kfuwsHZNmos-3" value="util" style="html=1;whiteSpace=wrap;" parent="gvXJfTXr9kfuwsHZNmos-2" vertex="1">
+          <mxGeometry width="110" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BHZEab_UYdIf4P-r6eU5" name="graphic-engine">
+    <mxGraphModel dx="1111" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fHZKB0qRdKiBrQGjwWtL-1" value="Engine Framework" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="1" vertex="1">
+          <mxGeometry x="70" y="40" width="670" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="fHZKB0qRdKiBrQGjwWtL-2" value="Base" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" parent="fHZKB0qRdKiBrQGjwWtL-1" vertex="1">
+          <mxGeometry x="40" y="70" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fHZKB0qRdKiBrQGjwWtL-3" value="Module" style="html=1;whiteSpace=wrap;" parent="fHZKB0qRdKiBrQGjwWtL-2" vertex="1">
+          <mxGeometry width="110" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fHZKB0qRdKiBrQGjwWtL-4" value="Encoding" style="html=1;whiteSpace=wrap;" parent="fHZKB0qRdKiBrQGjwWtL-2" vertex="1">
+          <mxGeometry x="20" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fHZKB0qRdKiBrQGjwWtL-5" value="Types" style="html=1;whiteSpace=wrap;" parent="fHZKB0qRdKiBrQGjwWtL-2" vertex="1">
+          <mxGeometry x="20" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WWwpEZWXn-hWRmOq3LfP" name="system-architecture">
+    <mxGraphModel dx="1111" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
