@@ -48,6 +48,84 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-1" value="Manual Mode Operation" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="740" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-2" value="Modelica" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="440" y="120" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-3" value="VR Engine" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="120" y="120" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-4" value="CodeSys PLC" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="440" y="410" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-5" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;PWR Reactor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Tank Level: number&lt;br&gt;+ Temperature Level: number&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Valve Position: boolean&lt;br&gt;+ Power: number&lt;br&gt;+ Mode: string&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="145" y="169" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-5">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="20" y="199" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-9" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IvddOlwA9VGhqfVrC3Zz-1" source="IvddOlwA9VGhqfVrC3Zz-7" target="IvddOlwA9VGhqfVrC3Zz-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="224.5" as="sourcePoint" />
+            <mxPoint x="230" y="224.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;PWR Reactor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Tank Level: number&lt;br&gt;+ Temperature Level: number&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Valve Position: boolean&lt;br&gt;+ Power: number&lt;br&gt;+ Mode: string&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="465" y="169" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-11" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-10">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-12" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="IvddOlwA9VGhqfVrC3Zz-1" source="IvddOlwA9VGhqfVrC3Zz-5" target="IvddOlwA9VGhqfVrC3Zz-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-13" value="UDP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="370" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-14" value="Visual" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="60" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-15" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;PWR Reactor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Tank Level: number&lt;br&gt;+ Temperature Level: number&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Level Controller: boolean&lt;br&gt;+ Power Controller: number&lt;br&gt;+ Mode Selector: string&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="465" y="470" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-16" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-15">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-17" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="IvddOlwA9VGhqfVrC3Zz-1" source="IvddOlwA9VGhqfVrC3Zz-15" target="IvddOlwA9VGhqfVrC3Zz-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-18" value="OPC-UA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="570" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="540" y="690" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-20" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="IvddOlwA9VGhqfVrC3Zz-1" source="IvddOlwA9VGhqfVrC3Zz-19" target="IvddOlwA9VGhqfVrC3Zz-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="670" as="sourcePoint" />
+            <mxPoint x="440" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvddOlwA9VGhqfVrC3Zz-21" value="HMI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IvddOlwA9VGhqfVrC3Zz-1">
+          <mxGeometry x="570" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
